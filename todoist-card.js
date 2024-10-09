@@ -550,7 +550,6 @@ class TodoistCard extends LitElement {
             .todoist-list-empty {
                 padding: 15px;
                 text-align: center;
-                font-size: 24px;
             }
             
             .todoist-item {
@@ -564,7 +563,6 @@ class TodoistCard extends LitElement {
             }
             
             .todoist-item-text, .todoist-item-text > span {
-                font-size: 16px;
                 white-space: nowrap;
                 overflow: hidden;
                 text-overflow: ellipsis;
@@ -606,7 +604,6 @@ class TodoistCard extends LitElement {
                 padding: 10px;
                 box-sizing: border-box;
                 border-radius: 5px;
-                font-size: 16px;
             }
 
             .todoist-item ha-icon-button ha-icon {
