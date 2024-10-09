@@ -619,8 +619,8 @@ customElements.define('todoist-card-fonts', TodoistCardFonts);
 window.customCards = window.customCards || [];
 window.customCards.push({
     preview: true,
-    type: 'todoist-card',
-    name: 'Todoist Card',
+    type: 'todoist-card-fonts',
+    name: 'Todoist Card Fonts',
     description: 'Custom card for displaying lists from Todoist. Now with fonts overridable',
 });
 
